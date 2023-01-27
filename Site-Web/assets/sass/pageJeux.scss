@@ -1,0 +1,448 @@
+.containerFull {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#corps {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/settings/back-ground/backFive.png');
+    background-size: 30%;
+    height: auto;
+    width: 75%;
+    margin-top: 7%;
+    border: solid rgb(188, 116, 0) 0.5px;
+    border-radius: 5px;
+}
+
+#BoiteGame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: auto;
+    width: 100%;
+    background-size: 100%;
+    border-radius: 5px;
+}
+
+/*-------------------------Volet-Gauche--------------------------*/
+#voletG {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 100%;
+    width: 50%;
+    transition: 1s;
+}
+
+#boiteBoutonGame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 90%;
+}
+
+#boiteLike {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 5%;
+}
+
+#like {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: solid whitesmoke 1px;
+    background-color: #70707068;
+    backdrop-filter: blur(3px);
+}
+
+#like:hover {
+    background-color: #70707068;
+}
+
+#noLike {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: solid whitesmoke 1px;
+    background-color: #70707068;
+    backdrop-filter: blur(3px);
+}
+
+#noLike:hover {
+    background-color: #70707068;
+}
+
+.boutonlike {
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+#Description,
+#Trophées {
+    height: 50px;
+    width: 90%;
+    margin-top: 10%;
+    font-size: 20px;
+    border: solid whitesmoke 1px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color: #70707068;
+    backdrop-filter: blur(3px);
+}
+
+#Description:hover {
+    background-color: #70707068;
+}
+
+#Trophées:hover {
+    background-color: #70707068;
+}
+
+#boitePrésentation {
+    margin: 10%;
+}
+
+/*-------------------------Volet-Droit--------------------------*/
+/*-------------------------Boite-Trophée-Total-----------------------*/
+#totalTrophee {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5%;
+    color: whitesmoke;
+    border-radius: 5px;
+    background-color: #70707068;
+    backdrop-filter: blur(5px);
+    border: solid whitesmoke 1px;
+}
+
+.imgBox1 {
+    margin: 2%;
+    height: 50px;
+}
+.textBox3 {
+    font-size: 30px;
+    color: rgb(242, 242, 242);
+}
+/*-------------------------Boite-Trophée-Total-----------------------*/
+#voletD {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width:100%;
+}
+
+
+#boiteTrophée {
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 10%;
+}
+
+.VisibleGame {
+    position: relative;
+    opacity: 100%;
+    transition: 1s;
+}
+
+.NoVisibleGame {
+    position: absolute;
+    opacity: 0%;
+    visibility: hidden;
+    display: none;
+    transition: 1s;
+}
+
+.trophées {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    height: 70px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #70707068;
+    backdrop-filter: blur(5px);
+    border: solid whitesmoke 1px;
+}
+
+.imgBox {
+    height: 100px;
+}
+
+.textBox {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 5%;
+    width: 60%;
+    list-style-type: none;
+}
+
+.textBox1 {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.textBox2 {
+    font-size: 15px;
+    color: rgb(215, 215, 215);
+    margin-bottom: 2%;
+}
+
+/*--------------Boite-Text-----------*/
+#boiteDescription {
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 60px;
+    color: rgb(215, 215, 215);
+}
+.colorTitle {
+    color: rgb(80, 80, 80);
+}
+.titleGame {
+    text-align: center;
+}
+
+.boiteTextTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100%;
+    margin-top: 0%;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: #70707068;
+    backdrop-filter: blur(5px);
+    border: solid whitesmoke 1px;
+}
+.boiteText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+    height: auto;
+    width: 100%;
+    margin-top: 3%;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: #70707068;
+    backdrop-filter: blur(5px);
+    border: solid whitesmoke 1px;
+}
+
+.platform {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+@media all and (max-width: 1024px) {
+
+    #BoiteGame {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: auto;
+        margin-top: 10px;
+        height: auto;
+        width: 100%;
+        background-size: 100%;
+    }
+
+    #voletG {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+
+    #boiteBoutonGame {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 90%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    #boiteLike {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        margin-top: 0%;
+    }
+
+    #like {
+        height: 120px;
+        width: 120px;
+        border-radius: 100%;
+        border: solid whitesmoke 1px;
+        background-color: #70707068;
+        backdrop-filter: blur(3px);
+
+    }
+
+    #noLike {
+        height: 120px;
+        width: 120px;
+        border-radius: 100%;
+        border: solid whitesmoke 1px;
+        background-color: #70707068;
+        backdrop-filter: blur(3px);
+    }
+
+    .boutonlike {
+        font-size: 70px;
+        color: whitesmoke;
+    }
+
+    #Description,
+    #Trophées {
+        height: 100px;
+        width: 80%;
+        margin-top: 0%;
+        margin-left: 5%;
+        font-size: 30px;
+        border: solid whitesmoke 1px;
+        border-radius: 5px;
+        color: whitesmoke;
+        background-color: rgba(180, 180, 180, 0.399);
+        backdrop-filter: blur(5px);
+    }
+
+    #voletD {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    #totalTrophee {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 90%;
+        margin-top: 5%;
+        color: whitesmoke;
+        border-radius: 5px;
+        background-color: #70707068;
+        backdrop-filter: blur(5px);
+        border: solid whitesmoke 1px;
+    }
+
+    .trophées {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10%;
+        width: 90%;
+        height: auto;
+        border-radius: 5px;
+        background-color: #70707068;
+        backdrop-filter: blur(5px);
+        border: solid whitesmoke 1px;
+    }
+
+    .imgBox {
+        height: 120px;
+    }
+
+    .textBox {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-left: 1%;
+        width: 90%;
+        list-style-type: none;
+    }
+
+    .textBox1 {
+        font-size: 50px;
+        color: whitesmoke;
+    }
+
+    .textBox2 {
+        font-size: 30px;
+        color: rgb(215, 215, 215);
+        margin-bottom: 2%;
+    }
+
+    #boiteTrophée {
+        z-index: 1;
+        height: auto;
+        width: 100%;
+        margin-top: 0;
+        margin-left: 10%;
+    }
+
+    /*--------------Boite-Text-----------*/
+    #boiteDescription {
+        z-index: 1;
+        height: auto;
+        width: 100%;
+        margin-left: 5%;
+        margin-top: 0;
+        color: rgb(215, 215, 215);
+        font-size: 30px;
+    }
+
+    .boiteText {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: auto;
+        width: 90%;
+        margin-top: 3%;
+        padding: 2%;
+        border-radius: 5px;
+        background-color: #70707068;
+        backdrop-filter: blur(5px);
+        border: solid whitesmoke 1px;
+    }
+
+    .platform {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

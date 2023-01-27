@@ -1,0 +1,982 @@
+@media all and (max-width: 1024px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #corps {
+        padding: 0%;
+        margin: 0%;
+    }
+
+    #footerBox {
+        margin-top: 20%;
+        height: 200px;
+        width: 100%;
+        background-color: #926319;
+    }
+
+    /*--------------------------NavBar-------------------------------*/
+    #navBar {
+        position: fixed;
+        bottom: 0;
+        top: auto;
+        z-index: 5;
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+        background-color: #785112;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    #navPC {
+        display: none;
+        width: 100%;
+    }
+
+    #navMobil {
+        display: flex;
+        width: 100%;
+    }
+
+    #burgerBar {
+        display: flex;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #boiteConex {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #boiteConex2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start
+    }
+
+    #boiteBurger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 24%;
+        border-right: solid whitesmoke 1px;
+        border-left: solid whitesmoke 1px;
+        cursor: pointer;
+    }
+
+    .burgerMenu {
+        display: block;
+        font-size: 50px;
+        color: whitesmoke;
+        
+    }
+
+    #boiteBurger:hover {
+        background-color: #926319;
+    }
+
+    .bouton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 18.81%;
+        border: solid white 0px;
+        border-right: solid whitesmoke 1px;
+    }
+
+    .bouton:hover {
+        background-color: #926319;
+    }
+
+    .boutonM {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 18.81%;
+        border: solid white 0px;
+        border-right: solid whitesmoke 1px;
+        background-color: #926319;
+    }
+
+    .input {
+        height: 20px;
+        margin: 0.1%;
+        width: auto;
+        text-align: center;
+        border: solid whitesmoke 1px;
+        border-radius: 3px;
+        color: whitesmoke;
+    }
+
+    .navTitle {
+        display: none;
+    }
+
+    /*--------------------------FinDeNavBar-------------------------------*/
+    /*-------------------------VoletBurger-------------------------------*/
+    .voletBurger {
+        position: fixed;
+        z-index: 5;
+        top: 0;
+        left: -100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100%;
+        width: 60%;
+        border-radius: 5px;
+        background-color: #d7d7d7a5;
+        backdrop-filter: blur(15px);
+        transition: 0.5s;
+    }
+
+    #boiteBouton {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .burgerOpen {
+        left: 0vw;
+    }
+
+    #titleMarque {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 100%;
+        margin-top: 50px;
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 70px;
+        border-top: solid #ab852c 5px;
+    }
+
+    #logoBurger {
+
+    }
+
+    .boutonVolet {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+        height: 80px;
+        width: 90%;
+        margin-top: 20px;
+        text-decoration: none;
+        color: #c59014;
+        background-color: #ebebebc1;
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+    }
+
+    .boutonVolet:hover {
+        background-color: #a1a1a1c1;
+    }
+
+    .marginBurger {
+        margin-bottom: 20%;
+    }
+
+    #compteUser {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .inputUser {
+        height: 70px;
+        width: 90%;
+        margin-top: 20px;
+        font-size: 50px;
+        border: solid whitesmoke 0px;
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        color: #ffffff;
+        background-color: #989898b1;
+    }
+
+    .inputUser::placeholder {
+        font-size: 50px;
+    }
+
+    ::placeholder {
+        color: rgba(255, 255, 255, 0.506);
+    }
+
+    /*-------------------------FinDeVoletBurger-------------------------------*/
+    #corpsIndex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    #enter {
+        height: 1815px;
+        width: 100%;
+    }
+
+    #containerEnter {
+        width: 100%;
+        height: 100%;
+    }
+
+    #footer {
+        height: 100px;
+        width: 100%;
+        background-color: #787878;
+    }
+
+
+
+    /*--------Pour agrandire mon contenu de ma boxGame je modifie la hauteur de ma div 'parentGame' directment 
+cela ajustera mon contenu directement----------*/
+    #parentGame {
+        width: 100%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+        height: 1250px;
+    }
+    #containerbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 630px;
+        margin: 0%;
+    }
+
+    #boxGame {
+        position: absolute;
+        margin-top: 60px;
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    #BlocOnglet {
+        z-index: 1;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+
+    #onglet1,
+    #onglet2,
+    #onglet3,
+    #onglet4 {
+        display: none;
+    }
+
+    .onglet {
+        height: 30%;
+        width: 30%;
+        text-align: center;
+        color: whitesmoke;
+        margin-top: 20px;
+        margin-left: 1%;
+        margin-right: 1%;
+        border-radius: 5px;
+        background-color: rgba(176, 176, 176, 0.279);
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .onglet:hover {
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 5px;
+        transition: 0.5s;
+        color: rgb(167, 127, 19);
+        background-color: rgba(255, 255, 255, 0.863);
+    }
+
+    .visible {
+        opacity: 100%;
+        transition: 0.5s;
+    }
+
+    .noVisible {
+        opacity: 0%;
+        visibility: hidden;
+        transition: 0.5s;
+    }
+
+    .titleOnglet {
+        margin-top: 10px;
+    }
+
+    .ongletOpen {
+        height: 30%;
+        width: 30%;
+        font-size: 100%;
+        text-align: center;
+        border-radius: 5px;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 10px;
+        color: rgb(167, 127, 19);
+        background-color: rgba(255, 255, 255, 0.863);
+    }
+
+    .catégorie {
+        color: whitesmoke;
+        font-size: 40px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+        border-bottom: solid rgb(167, 127, 19) 5px;
+    }
+
+    #boitecontainer {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 100%;
+    }
+
+    /*----------------------------UserBox-------------------------------*/
+    #boxUser {
+        margin: 0%;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        border: solid rgb(188, 116, 0) 0.5px;
+        border-radius: 0%;
+    }
+
+    #avatarUser {
+        height: 200px;
+        width: 200px;
+        border-radius: 15%;
+        background-image: url('../img/avatar-user/Unknown-2.jpeg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    #psnPlus {
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    #profilUser {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+
+    .textUser {
+        color: whitesmoke;
+        font-size: 40px;
+    }
+
+    .badgeUser {
+        margin-left: 1%;
+        color: #ab852c;
+        font-size: 10px;
+    }
+
+    #boiteBadge {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 70%;
+        height: 80px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    #numberTrophée {
+        color: whitesmoke;
+    }
+
+    #badgeRecomp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+    }
+
+    #cardUser {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 20%;
+    }
+
+    .cardBUser {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 200px;
+        width: 170px;
+        padding: 1px;
+        border-radius: 15px;
+        border: solid #eeaf02 1px;
+        background-color: #a2a2a2;
+        box-shadow: rgba(0, 0, 0, 0.295) 5px 5px 5px;
+    }
+
+    .cardFUser {
+        text-align: center;
+        font-size: 100%;
+        width: 90%;
+        height: 90%;
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    /*------------------------------*/
+    #compteGameUser {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        padding: 0%;
+        margin-right: 0%;
+        margin-top: 5%;
+        height: 100px;
+        width: 100%;
+        border: solid rgb(188, 116, 0) 0.5px;
+        border-radius: 0%;
+    }
+
+    #boiteCompte {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 45%;
+        height: 45%;
+        border-radius: 15px;
+        background-color: rgba(0, 0, 0, 0.356);
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    #boiteCompte:hover {
+        background-color: rgba(0, 0, 0, 0.6);
+        transition: 0.5s;
+    }
+
+    .titlePsn,
+    .titleXbox,
+    .titleNintendo,
+    .titleSteam {
+        font-size: 35px;
+        color: whitesmoke;
+    }
+
+    #psn {
+        display: flex;
+        justify-content: space-evenly;
+        height: 70px;
+        width: 70px;
+        border-radius: 15%;
+        background-image: url('../img/settings/icons-platForms/playstation/playstation.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    #xbox {
+        display: flex;
+        justify-content: space-evenly;
+        height: 70px;
+        width: 70px;
+        border-radius: 15%;
+        background-image: url('../img/settings/icons-platForms/xbox/xbox.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    #nintendo {
+        display: flex;
+        justify-content: space-evenly;
+        height: 70px;
+        width: 70px;
+        border-radius: 15%;
+        background-image: url('../img/settings/icons-platForms/nintendo/nintendo.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    #steam {
+        display: flex;
+        justify-content: space-evenly;
+        height: 70px;
+        width: 70px;
+        border-radius: 15%;
+        background-image: url('../img/settings/icons-platForms/steam/steam.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    #boxHG {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 220px;
+        width: 90%;
+        margin: 5% 0%;
+        padding: 2%;
+        border-radius: 0px;
+    }
+
+    #searchGame {
+        font-size: 25px;
+        height: 70%;
+        width: 80%;
+        color: whitesmoke;
+        background-color: #3e3e3e;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .searchGame {
+        font-size: 20px;
+        height: 70px;
+        width: 70px;
+        margin-left: 0px;
+        margin-right: 5px;
+        color: whitesmoke;
+        background-color: #3e3e3e;
+        border: none;
+        border-radius: 100%;
+    }
+
+    .searchGame:hover {
+        background-color: #4d4d4d;
+    }
+
+    /*----------------------------OngletOne-------------------------------*/
+    #ongletOne {
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+    }
+
+    #ongletOne::-webkit-scrollbar {
+        width: 10px;
+        /* width of the entire scrollbar */
+    }
+
+    #ongletOne::-webkit-scrollbar-thumb {
+        background-color: rgb(221, 221, 221);
+        /* color of the scroll thumb */
+        border-radius: 20px;
+        /* roundness of the scroll thumb */
+        border: 3px solid rgba(56, 56, 56, 0);
+        /* creates padding around scroll thumb */
+    }
+
+
+    /*----------------------------CardGame------------------------------*/
+
+    #cardGame {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 200%;
+    }
+
+    /*---------------------OngletTwo---------------------------*/
+    #ongletTwo {
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+    }
+
+    .scroller {
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
+
+    #ongletTwo::-webkit-scrollbar {
+        width: 10px;
+        /* width of the entire scrollbar */
+    }
+
+    #ongletTwo::-webkit-scrollbar-thumb {
+        background-color: rgb(221, 221, 221);
+        /* color of the scroll thumb */
+        border-radius: 20px;
+        /* roundness of the scroll thumb */
+        border: 3px solid rgba(56, 56, 56, 0);
+        /* creates padding around scroll thumb */
+    }
+
+    /*---------------------OngletThree---------------------------*/
+    #ongletThree {
+        position: absolute;
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    #BoiteFriend {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    #listFriends {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        height: 18%;
+        width: 90%;
+        margin-bottom: 2%;
+        margin-left: 0%;
+        border-radius: 5px;
+        border: solid white 1px;
+        background-color: #4d4d4d6c;
+    }
+
+    #boiteHorizontal {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: auto;
+    }
+
+    .scroller {
+        overflow: auto;
+    }
+
+    #listFriends::-webkit-scrollbar {
+        width: 10px;
+        /* width of the entire scrollbar */
+    }
+
+    #listFriends::-webkit-scrollbar-thumb {
+        background-color: rgba(221, 221, 221, 0.436);
+        /* color of the scroll thumb */
+        border-radius: 20px;
+        /* roundness of the scroll thumb */
+        border: 3px solid rgba(56, 56, 56, 0);
+        /* creates padding around scroll thumb */
+    }
+
+    .titleFriends {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        color: whitesmoke;
+        margin-top: 2%;
+        width: 38%;
+        height: 5%;
+    }
+
+    #friends {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 170px;
+        width: 170px;
+        margin: 1%;
+        border-radius: 5px;
+        margin-top: 0;
+        color: whitesmoke;
+        background-color: rgba(33, 33, 33, 0.617);
+    }
+
+    .imgFriend {
+        height: 90%;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .utilisateurFirend {
+        text-align: center;
+        width: 100%;
+    }
+
+    .ajoutFriend {
+        height: 200px;
+        width: 50px;
+        cursor: pointer;
+    }
+
+    #photoFirends {
+        height: 90%;
+        width: 25%;
+        margin-left: 2%;
+        border-radius: 20%;
+        background-color: rgba(255, 255, 255, 0.09);
+    }
+
+    #descriptFriends {
+        color: whitesmoke;
+        margin-left: 5%;
+    }
+
+    .boxFriends {
+        margin: 0%;
+        width: 200px;
+        background-color: #959595;
+    }
+
+    #mainFriends {
+        height: 67%;
+        width: 90%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+        border-radius: 5px;
+        border: solid white 1px;
+        background-color: #4d4d4d6c;
+    }
+
+    /*---------------------OngletFour---------------------------*/
+    #ongletFour {
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        height: 100%;
+        width: 100%;
+    }
+
+    #titleReglage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 5%;
+        width: 100%;
+        margin-top: 1%;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+
+    #boxReglage {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 90%;
+        width: 95%;
+  
+        border-radius: 5px;
+        background-color: #4d4d4d6c;
+    }
+
+    #boiteAvatar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 40%;
+    }
+
+    #boiteSkin {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50%;
+        height: 60%;
+        margin-top: 0%;
+    }
+
+    .avatarReglage {
+        height: 250px;
+        width: 250px;
+        margin-top: px;
+        border-radius: 15%;
+        background-image: url('../img/avatar/Unknown-2.jpeg');
+        background-size: 100% 100%;
+        background-color: rgba(255, 255, 255, .5);
+        margin-right: 0%;
+    }
+
+    #boiteReglageG {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 30%;
+        width: 100%;
+        margin-left: 3%;
+    }
+
+    .boutonReglage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 5%;
+        font-size: 20px;
+        color: whitesmoke;
+        background-color: #4d4d4dad;
+        border: solid whitesmoke 1px;
+        cursor: pointer;
+    }
+
+    .boutonReglage:hover {
+        background-color: #31313153;
+    }
+
+    #boiteReglageD {
+        height: 50%;
+        width: 90%;
+        margin: 0%;
+    }
+
+    .profilReglage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0%;
+    }
+
+    .box {
+        margin-top: 2%;
+        height: 60px;
+        width: 70%;
+        font-size: 13px;
+        border-radius: 3px;
+        padding-left: 5%;
+        color: rgb(255, 255, 255);
+        background-color: hsla(0, 0%, 10%, 0.816);
+    }
+    
+    .boutonF {
+        margin-top: 2%;
+        height: 50px;
+        width: 50%;
+        font-size: 20px;
+        text-align: center;
+        border: solid rgba(245, 245, 245, 0.464) 1px;
+        border-radius: 3px;
+        background-color: #4d4d4dad;
+        border: solid whitesmoke 1px;
+        cursor: pointer;
+    }
+    
+    .boutonF:hover {
+        background-color: #31313153;
+        transition: 0.5s;
+    }
+    
+
+    .titleSkin {
+        text-align: center;
+        color: whitesmoke;
+        margin-top: 0px;
+        font-size: 30px;
+        width: 100%;
+    }
+
+
+/*-------Register-------*/
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-size: 15px;
+    color: whitesmoke;
+    backdrop-filter: blur(3px);
+    background-color: rgba(0, 0, 0, 0.446);
+    box-shadow: rgb(255, 255, 255) 0px 0px 10px;
+    border: solid rgba(254, 254, 254, 0.616);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.backImg {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('../img/settings/back-ground/backFive.png');
+    background-size: 50%;
+}
+.register {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.childBox {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2%;
+}
+.childBoxFile {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding: 0%;
+    margin-top: 2%;
+}
+
+}

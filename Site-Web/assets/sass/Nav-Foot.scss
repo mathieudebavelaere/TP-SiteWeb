@@ -1,0 +1,255 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2b2b2b;
+}
+
+#navBar {
+    position: fixed;
+    z-index: 5;
+    display: flex;
+    top: 0%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    background-color: #424242;
+    border-bottom:solid rgb(107, 107, 107) 2px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    margin-top: 10%;
+    background-color: #424242;
+    border-top:solid rgb(107, 107, 107) 2px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.footerImg {
+    height: 100px;
+    padding: 4px;
+}
+.footerImgReseaux {
+    height: 50px;
+}
+.boxLeft {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 50%;
+    color: whitesmoke;
+}
+.boxRight {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 50%;
+    color: whitesmoke;
+}
+.boxfooterIMG {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.boxBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 100%;
+    color: whitesmoke;
+}
+#burgerBar {
+    display: none;
+}
+
+#footerBox {
+    margin-top: 2%;
+    height: 200px;
+    width: 100%;
+    background-color: #424242;
+}
+
+.burgerMenu {
+    display: none;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*--------------------------------------*/
+.titleH1{
+    font-size: 25px;
+    width: 150px;
+    margin-left: 5px;
+}
+
+#logo {
+    height: 45px;
+    padding: 4px;
+    background-color: #f7f7f7;
+    border-radius: 50px;
+    transition: 0.7s;
+}
+
+#logo:hover {
+    rotate: 360deg;
+    transition: 0.7s;
+}
+
+#corps {
+    display: flex;
+    padding: 5%;
+    justify-content: center;
+    align-content: center;
+    height: auto;
+}
+
+#boiteConex2 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    font-size: 30px;
+}
+
+.boxCo {
+    height: 60px;
+    width: 400Px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.inputUserNav {
+    font-size: 14px;
+    margin: 5px 0%;
+    border-radius: 5px;
+    background-color: #d6d6d6;
+}
+
+.inputUserNav::placeholder {
+    font-size: 10px;
+    text-align: unset;
+    color: rgb(60, 60, 60);
+
+}
+
+.boutonNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    margin: 0% 1%;
+    padding: 0% 2%;
+    font-size: 17px;
+    background-color: #a2a2a26b;
+    border-radius: 5px;
+    color: #eeeeee;
+}
+
+.bouton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    height: 50px;
+    width: 15%;
+    margin: 0% 1%;
+    font-size: 90%;
+    text-align: center;
+    background-color: #2323236b;
+    border-radius: 5px;
+    color: #eeeeee;
+}
+
+.bouton:hover {
+    color: whitesmoke;
+    background-color: #a7a7a7c2;
+}
+
+.boutonBurger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    height: 50px;
+    width: auto;
+    margin: 0% 1%;
+    padding: 0% 2%;
+    font-size: 90%;
+    text-align: center;
+    border-radius: 5px;
+    color: #eeeeee;
+}
+
+.input {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid whitesmoke 1px;
+    border-radius: 3px;
+    color: whitesmoke;
+    background-color: #ffffff2b;
+}
+
+::placeholder {
+
+    color: rgba(255, 255, 255, 0.506);
+}
+
+.voletBurgerClose {
+    display: none;
+}
+
+.voletBurgerOpen {
+    display: none;
+}
+
+/*-----------------------------------------*/
+#textIndex {
+    color: rgba(245, 245, 245, 0.592);
+    font-size: 100px;
+}
+
+
+#enter {
+    height: 100%;
+    width: 100%;
+}
+
+#containerEnter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+}
